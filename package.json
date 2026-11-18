@@ -1,0 +1,21 @@
+{
+  "name": "retro-kart-lan",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Carreras retro con sala LAN compartida",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node .qa/test-lan.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1",
+    "three": "0.160.0"
+  },
+  "devDependencies": {
+    "socket.io-client": "4.8.1"
+  }
+}
